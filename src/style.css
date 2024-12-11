@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: url("assets/background.png") no-repeat fixed center;
+  background-size: 100%;
+  color: #2E343B;
+  font-family: 'SF Pro Display';
+}
+
+.all{
+  /* padding: 25px 0 20px 0; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.client_text{
+  color: #ABABAB;
+  font-size: 16px;
+}
+
+.header_block, .contacts_blocks, .contact_block, button, .button_rectangle, .login_footer_list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header_block{
+  padding-top:25px;
+  justify-content: space-between;
+  margin: 0 60px;
+  height:fit-content;
+}
+
+.contacts_blocks{
+  gap: 10px;
+}
+
+.contact_block{
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 18px;
+  gap: 5px
+}
+
+.widget{
+  width: 24px;
+}
+.form_block{
+  width: 510px;
+  height: 420px;
+  background-color: #fff;
+  border-radius: 30px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px
+}
+form{
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.login_btn, .login_tel_input{
+  justify-content: space-between;
+  border-radius: 18px;
+  border: none;
+  padding: 5px 7px 5px 20px;
+}
+.login_btn{
+  background-color: #418CFF;
+}
+.login_tel_input{
+  /* width: 100%; */
+  padding: 22px 0 22px 50px;
+  /* background-color: #F5F5F5; */
+  background: url('./assets/Phone.svg') no-repeat left #F5F5F5;
+  background-position-x: 18px;
+  color: #969696;
+}
+.login_tel_input::placeholder{
+  color: #969696;
+  font-weight: 500;
+  font-size: 16px;
+}
+.login_tel_input:focus{
+  outline: none;
+}
+
+.button_rectangle{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255, 0.2);
+  justify-content: center;
+  border-radius: 18px;
+}
+
+.login_footer_list{
+  padding: 0 0 20px 50px;
+  gap:34px;
+  list-style-type: none;
+  height: max-content;
+  height:fit-content;
+}
+
+a{
+  text-decoration: none;
+  color: #2E343B;
+}
