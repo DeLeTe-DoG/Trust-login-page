@@ -13,10 +13,10 @@
 </template>
 
 <script>
-  import Phone from "./assets/Phone.svg"
-  import Email from "./assets/Email.svg"
-  import Whatsup from "./assets/Whatsup.svg"
-  import Telegram from "./assets/Telegram.svg"
+  import Phone from "./assets/images/Phone.svg"
+  import Email from "./assets/images/Email.svg"
+  import Whatsup from "./assets/images/Whatsup.svg"
+  import Telegram from "./assets/images/Telegram.svg"
   import PageHeader from './components/Page-header.vue';
   import PageFooter from './components/Page-footer.vue';
   import PageFormBlock from './components/Page-form-block.vue';

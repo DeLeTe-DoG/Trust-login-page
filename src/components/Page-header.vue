@@ -1,7 +1,7 @@
 <template>
     <div className="header_block">
         <div className="group_logo">
-            <img className="group_logo_img" src="../assets/Group.svg">
+            <img className="group_logo_img" src="../assets/images/Group.svg">
         </div>
         <div className="contacts_blocks">
             <div v-for="el in contacts_data" className="contact_block">

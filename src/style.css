@@ -1,10 +1,18 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: local("SF Pro Display"),
+    local("San Francisco Pro Display"),
+    url("./assets/fonts/SFPRODISPLAYREGULAR.OTF") format("woff2"),
+    url("./assets/fonts/SFPRODISPLAYREGULAR.OTF") format("woff"),
+    url("./assets/fonts/SFPRODISPLAYREGULAR.OTF") format("svg");
+}
 *{
   margin: 0;
   padding: 0;
 }
 
 body{
-  background: url("assets/background.png") no-repeat fixed center;
+  background: url("assets/images/background.png") no-repeat fixed center;
   background-size: cover;
   color: #2E343B;
   font-family: 'SF Pro Display';
@@ -28,10 +36,17 @@ h2{
   color: #fff;
   font-weight: 500;
 }
+h1, h2{
+  letter-spacing: 0.05em;
+}
 
 .client_text{
   color: #ABABAB;
   font-size: 16px;
+}
+.client_text, .login_footer_list li{
+  letter-spacing: 0.03em;
+  font-weight: 500;
 }
 
 .header_block, .contacts_blocks, .contact_block, button, .button_rectangle, .login_footer_list{
@@ -92,7 +107,7 @@ form{
   /* width: 100%; */
   padding: 22px 0 22px 50px;
   /* background-color: #F5F5F5; */
-  background: url('./assets/Phone.svg') no-repeat left #F5F5F5;
+  background: url('./assets/images/Phone.svg') no-repeat left #F5F5F5;
   background-position-x: 18px;
   color: #969696;
 }
