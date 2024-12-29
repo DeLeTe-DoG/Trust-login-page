@@ -7,7 +7,7 @@
             <button type="button" className="login_btn">
                 <h2>Войти</h2>
                 <div class="button_rectangle">
-                    <img className="arrow" src="../assets/images/VectorArrow.svg">
+                    <img className="arrow" src="/src/assets/images/VectorArrow.svg">
                 </div>
             </button>
         </form>
@@ -15,8 +15,10 @@
     </div>
 </template>
 
-<script setup>
-
+<script>
+    export default {
+        
+    }
 </script>
 
 <style scoped>
